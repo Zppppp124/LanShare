@@ -1,0 +1,33 @@
+# 生成物 / 构建中间目录
+dist/
+build/
+build-*/
+*.spec
+.lanshare-tmp/
+
+# 运行时产生的本地文件
+*.log
+debug.log
+lanshare.config.json
+lanshare.config.json.*.tmp
+lanshare.tasks.json
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时脚本 / 截图
+_*.py
+_*.png
+_*.ps1

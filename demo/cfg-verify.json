@@ -1,0 +1,11 @@
+{
+  "name": "验证节点改名",
+  "port": 8765,
+  "root": "I:\\Deepseek\\综合工作区\\局域网传输工具\\demo\\共享文件",
+  "key": "demokey123",
+  "https": false,
+  "allow_whole_disk": false,
+  "discovery": false,
+  "auto_accept": true,
+  "incoming_dir": "LanShare 接收"
+}
