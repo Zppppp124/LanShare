@@ -11,6 +11,7 @@
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-3FA46A">
   <img alt="deps" src="https://img.shields.io/badge/dependencies-0-F2A65A">
+  <a href="../../releases/latest"><img alt="download" src="https://img.shields.io/badge/download-latest-8B7CD8?logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -79,11 +80,15 @@ LanShare 是一个**零依赖**的局域网文件互传工具。双击 `LanShare
 
 ### 方式一：直接用打包好的 exe（推荐）
 
-1. 打开 [Releases](../../releases)，下载最新的 `LanShare.exe`
-2. 双击运行，出现主窗口即可用
+1. 打开 [**Releases 下载页**](../../releases/latest)，下载
+   `LanShare-x.y.z-windows-x64.rar`
+2. 解压后双击 `LanShare.exe`，出现主窗口即可用
 3. 其它电脑同样操作一遍，左边就会自动出现对方
 
 > 只有一台电脑也想试试？直接双击就行，可以浏览本机磁盘。
+>
+> 压缩包里除了主程序，还有 `放行防火墙.bat`（连不上时用）和
+> `LanShare.py`（装了 Python 的机器可直接跑的单文件版）。
 
 ### 方式二：从源码运行
 
