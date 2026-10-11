@@ -1,0 +1,9 @@
+# 统一用 LF 存储；Windows 上签出为 CRLF
+* text=auto eol=lf
+
+# 二进制文件不要做换行转换
+*.ico binary
+*.png binary
+*.jpg binary
+*.ttf binary
+*.exe binary
